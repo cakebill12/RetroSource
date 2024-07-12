@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, rgb(109, 28, 255), rgb(79, 21, 184));
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  color: white;
+}
+
+header {
+  font-family: 'Comic Sans MS', sans-serif;
+  text-align: center;
+  font-size: 2.5em;
+  padding: 20px;
+  color: white;
+  margin: 0;
+}
+
+.link-text {
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size: 1.5em;
+  color: white;
+  text-decoration: none; /* Removes underline */
+}
+
+.link-text:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.game-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.game-info {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.game-info h3 {
+  font-size: 1.5em;
+}
+
+.game-info p {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
